@@ -1,1 +1,0 @@
-# Shpula.github.io
