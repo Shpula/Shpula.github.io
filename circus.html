@@ -2,6 +2,11 @@
 <html>
 
 <head>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">  
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
     <link rel="icon" type="image/jpg" href="femida.jpg" />
     <title>Это заголовок нашего сайта</title>
     <link rel="stylesheet" href="./styles.css">
@@ -46,7 +51,7 @@
             <div class="img">
                 <img src="navbar-brand.png" id="brand-position">
             </div>
-            <a id="nav-linq" class="navbar-brand" href="https://yandex.ru/covid19/stat">Войти</a>
+            <a id="nav-linq" class="navbar-brand"onclick="a();" href="#">Войти</a>
     </div>
     </nav>
 
@@ -92,6 +97,7 @@
             </div>
         </div>
     </div>
+    <script src="site.js"></script>
 </body>
 
 </html>
