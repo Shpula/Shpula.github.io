@@ -26,7 +26,7 @@ Swal.fire({
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
-        title: `Вы успешно зарегестрированы!`,
+        title: `Вы успешно зарегестрированы! `,
       })
     }
   })
