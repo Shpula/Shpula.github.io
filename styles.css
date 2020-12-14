@@ -1,0 +1,22 @@
+#nav-linq {
+    color: white;
+}
+
+#nav-main {
+    color: rgb(174, 130, 63);
+}
+#brand-position {
+    margin-left: -160%; 
+    margin-top: -20px; 
+    margin-bottom: -20px;
+}
+#main-line {
+    height: 2rem; 
+    border-radius: 1ch;
+}
+#main-line-text {
+    margin: 0 auto;
+}
+#card-columns {
+    display: inline-block;
+}
